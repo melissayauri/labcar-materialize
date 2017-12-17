@@ -3,8 +3,9 @@
 }
 .container2{
 width: 100vw;
-
-
+}
+*{
+  color: white;
 }
 /*estilos para el botón hamburguesa*/
 .btn-hamburger{
@@ -37,7 +38,7 @@ img[alt="logo-labcar"]{
 .butn{
   border-radius: 10px;
 }
-
+/*incorporando lineas latrales al texto o bien*/
 .text{
   text-align: center;
   width: 90%;
@@ -71,4 +72,15 @@ img[alt="logo-labcar"]{
   /*posicionamiento al medio de la estrella*/
   margin-top: 20px;
   margin-right:2rem;
+}
+
+.section-app{
+  border: 1px solid white;
+  margin-top: 2rem;
+}
+
+.flex{
+float: right;
+width: 40%;
+margin-right: 0px;
 }
