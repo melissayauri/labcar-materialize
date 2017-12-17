@@ -1,3 +1,14 @@
 .line{
   outline: 1px solid red;
 }
+/*estilos para el botón hamburguesa*/
+.btn-hamburger{
+  background-color: white;
+  border:1px solid gray;
+  border-radius: 10%;
+}
+
+/**/
+img[alt="logo-labcar"]{
+  margin-left: 2rem;
+}
