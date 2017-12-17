@@ -1,5 +1,10 @@
-.line{
+.lines{
   outline: 1px solid red;
+}
+.container2{
+width: 100vw;
+
+
 }
 /*estilos para el botón hamburguesa*/
 .btn-hamburger{
@@ -8,7 +13,62 @@
   border-radius: 10%;
 }
 
-/**/
+/*imagen del encabezado*/
 img[alt="logo-labcar"]{
   margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+/*primera sección*/
+/*imagen de fondo*/
+.first-background{
+  background-image: url(../assets/images/taxi.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 120vh;
+  /*aplicando flex para que el bloque comienza tu viaje se posicione al medio*/
+  display: flex;
+  /*lo posiciona al centro y al final*/
+  align-items: center;
+  justify-content: flex-end;*/
+}
+/*boton descarga el app*/
+.butn{
+  border-radius: 10px;
+}
+
+.text{
+  text-align: center;
+  width: 90%;
+}
+/*línea lateral despues*/
+.text:after {
+  /*no se aplica ningun texto*/
+  content: " ";
+  /*se posiciona al lado de la estrella*/
+  display: inline-block;
+  /*tamaño de la linea*/
+  width: 90px;
+  height: 1px;
+  /*color de fondo*/
+  background: white;
+  /*posicionamiento al medio de la estrella*/
+  margin-top: 20px;
+  margin-left: 2rem;
+}
+/*línea lateral antes del texto*/
+.text:before {
+  /*no se aplica ningun texto*/
+  content: " ";
+  /*se posiciona al lado de la estrella*/
+  display: inline-block;
+  /*tamaño de la linea*/
+  width: 90px;
+  height: 1px;
+  /*color de fondo*/
+  background: white;
+  /*posicionamiento al medio de la estrella*/
+  margin-top: 20px;
+  margin-right:2rem;
 }
