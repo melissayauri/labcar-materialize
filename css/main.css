@@ -8,7 +8,14 @@ width: 100vw;
   margin-bottom: 0px;
 }
 .cont-margin{
+margin-left: 0px;
+margin-right: 0px;
+}
+/*.cont-margin{
 width: 95%;
+}*/
+.space{
+  padding-left: 0px;
 }
 .btn-resalt{
   width: 300px;
@@ -105,11 +112,38 @@ margin-right: 0px;
   background-position: center bottom;
   height: 100vh;
   top:0;
-}
-.third-section{
-background-color:rgba(52, 52, 52, 0.45);
-padding-top: 3rem;
-height: 100vh;
-padding-left: 2rem;
 
+}
+
+.third-section{
+  background-color:rgba(52, 52, 52, 0.45);
+  padding-top: 3rem;
+  height: 100vh;
+  padding-left: 2rem;
+
+
+}
+
+/*
+.color{
+  background-color:rgba(52, 52, 52, 0.45);
+}*/
+/*seccion tarifa*/
+.tarifa{
+  padding-top: 4rem;
+}
+
+/*entrada del formulario*/
+section .tarifa .input-field input{
+  border: 1px solid white;
+  border-radius: 5px;
+}
+section .tarifa input::-webkit-input-placeholder{
+  color: white;
+}
+
+/*imagen del mapa*/
+img[alt="google-map"]{
+  border: 1px solid white;
+  padding: 5px;
 }
