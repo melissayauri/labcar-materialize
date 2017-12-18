@@ -20,8 +20,8 @@
           <!--menu para desktop-->
           <ul class="right hide-on-med-and-down  grey-text darken-1">
             <li ><a href="#" class="black-text">Viaja</a></li>
-            <li><a href="#" class="black-text">Conduce</a></li>
-            <li><a href="#" class="black-text">Inicia sesion</a></li>
+            <li><a href="#" class="black-text ">Conduce</a></li>
+            <li><a  href="#iniciar-sesion" class="black-text modal-trigger">Inicia sesion</a></li>
           </ul>
           <!--menu despegable para movil-->
           <ul class="side-nav red-text" id="mobile-demo">
@@ -32,6 +32,38 @@
         </div>
       </nav>
     </header>
+
+    <!--modal iniciar sesión-->
+    <div id="iniciar-sesion" class="modal">
+      <div class="modal-content teal ">
+        <!--icono cerrar-->
+        <i class="material-icons right modal-close">close</i>
+        <!--imagen user-->
+        <figure>
+          <img src="assets/images/person.JPG" alt="person" class="img-responsive center-block">
+        </figure>
+        <hr>
+        <!--registro-->
+        <div class="card-panel grey lighten-2 black-text content-register">
+          <div class="input-field">
+            <!--entrada username-->
+            <i class="material-icons prefix icon-form ">account_circle</i>
+            <input  type="text" class="validate white " placeholder="username">
+          </div>
+          <!--entrada password-->
+          <div class="input-field">
+            <i class="material-icons prefix icon-form ">lock</i>
+            <input  type="text" class="validate white " placeholder="password">
+          </div>
+          <!--boton login-->
+          <div class="center">
+            <a class="btn amber white-text butn z-depth-5 ">Login</a>
+          </div>
+          <p class="black-text">Forgot password?<span class="red-text">click here</span></p>
+        </div>
+      </div>
+
+    </div>
     <!--primera sección-comienza tu viaje-->
     <section class="first-background line">
       <div class="container container2">
@@ -226,9 +258,12 @@
 
 
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="vendors/js/jquery.js"></script>
     <script type="text/javascript" src="vendors/js/materialize.min.js"></script>
     <!--enlace para activar requerimiento del framework-->
-    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery1.js"></script>
+    <script type="text/javascript">
+
+    </script>
   </body>
 </html>
