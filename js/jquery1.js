@@ -4,3 +4,7 @@
 $(document).ready(function(){
     $('#iniciar-sesion').modal();
   });
+/*modal registrarse*/
+  $(document).ready(function(){
+      $('#registrate').modal();
+    });

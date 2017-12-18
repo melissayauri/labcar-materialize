@@ -216,3 +216,8 @@ border-radius: 5px;
   padding: 7px;
   border: 1px solid gray;
 }
+/*boton grande como ya tienes una cuenta*/
+.large-btn{
+  width: 50vw;
+  margin-bottom: 1rem;
+}

@@ -62,7 +62,6 @@
           <p class="black-text">Forgot password?<span class="red-text">click here</span></p>
         </div>
       </div>
-
     </div>
     <!--primera sección-comienza tu viaje-->
     <section class="first-background line">
@@ -83,16 +82,71 @@
                 <!--logo blanco-->
                 <h5>Viaja con <img class="responsive-img"src="assets/images/logoBlanco.png" alt="logo-blanco"></h5>
                 <!--boton registrate-->
-                <a class="btn white black-text butn z-depth-5 tooltipped" data-tooltip="vamos registrate">Registrate</a>
+                <a  href="#registrate" class="btn white black-text butn z-depth-5 tooltipped modal-trigger" data-tooltip="vamos registrate">Registrate</a>
                 <p class="text">o bien</p>
                 <!--boton conviertete en un conductor-->
                 <a class="btn white black-text z-depth-5 butn">Conviertete en un conductor</a>
               </div>
+              <!--modal registrate-->
+              <div id="registrate" class="modal">
+                <div class="modal-content grey ">
+                  <!--icono cerrar-->
+                  <i class="material-icons right modal-close">close</i>
+                  <a class="btn black z-depth-5 butn large-btn">Ya tiene una cuenta?</a>
+                  <p href="#" class="black-text center">o crea una cuenta nueva</p>
+                  <div class="row">
+                    <!--formulario-->
+                    <form class="col s12">
+                      <!--entrada mombre-->
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input placeholder="nombre"type="text" class="validate white">
+                        </div>
+                        <!--entrda apellido-->
+                        <div class="input-field col s6">
+                          <input placeholder="apellido" type="text" class="validate white">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input placeholder="correo" type="text" class="validate white">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input placeholder="telefono" type="password" class="validate white">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input placeholder="contraseña"  type="email" class="validate white">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input placeholder="ciudad"  type="email" class="validate white">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input placeholder="opcional(codigo de invitacion)"  type="email" class="validate white">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!--boton como te enteraste-->
+                  <a class="btn grey lighten-1 z-depth-5 butn large-btn black-text">Como te enterastes de nosostros<i class="material-icons black-text">expand_more</i></a>
+                  <!--boton enviar-->
+                  <a class="btn cyan accent-3 z-depth-5 butn large-btn">Ya tiene una cuenta?</a>
+                </div>
+              </div>
             </div>
+            <!--modal registrate-->
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
     <!--segunda sección-nueva app-->
     <section class="amber">
       <div class="container">
