@@ -147,3 +147,47 @@ img[alt="google-map"]{
   border: 1px solid white;
   padding: 5px;
 }
+
+/*footer*/
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/*modificando el estilo*/
+a{
+  text-decoration: none;
+  color: white;
+}
+/*estilos para la lista que comienza en viaja*/
+.list1{
+
+  /*espaciado entre cada elemento*/
+  line-height: 2.5;
+}
+/*iconos en la version mobile*/
+.footer-icons{
+  margin-bottom: 4rem;
+  font-size:1em;
+}
+/*espaciado entre los iconos*/
+.footer-icons li a{
+margin-right: 1rem;
+
+}
+/*seccion de imagenes en el footer*/
+.footer-img figure{
+  /*espaciado inferior*/
+  margin-left: 0px;
+}
+footer h6{
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+
+@media (min-width: 993px){
+.section-app{
+  border: 1px solid red;
+}
+  }
