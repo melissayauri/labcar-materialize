@@ -4,8 +4,20 @@
 .container2{
 width: 100vw;
 }
+.margin{
+  margin-bottom: 0px;
+}
+.cont-margin{
+width: 95%;
+}
+.btn-resalt{
+  width: 300px;
+  text-transform: lowercase;
+
+}
 *{
   color: white;
+  cursor: pointer;
 }
 /*estilos para el botón hamburguesa*/
 .btn-hamburger{
@@ -16,7 +28,7 @@ width: 100vw;
 
 /*imagen del encabezado*/
 img[alt="logo-labcar"]{
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-top: 1rem;
 }
 
@@ -27,7 +39,7 @@ img[alt="logo-labcar"]{
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
   /*aplicando flex para que el bloque comienza tu viaje se posicione al medio*/
   display: flex;
   /*lo posiciona al centro y al final*/
@@ -37,6 +49,7 @@ img[alt="logo-labcar"]{
 /*boton descarga el app*/
 .butn{
   border-radius: 10px;
+
 }
 /*incorporando lineas latrales al texto o bien*/
 .text{
@@ -83,4 +96,20 @@ img[alt="logo-labcar"]{
 float: right;
 width: 40%;
 margin-right: 0px;
+}
+
+.second-background{
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center bottom;
+  height: 100vh;
+  top:0;
+}
+.third-section{
+background-color:rgba(52, 52, 52, 0.45);
+padding-top: 3rem;
+height: 100vh;
+padding-left: 2rem;
+
 }
